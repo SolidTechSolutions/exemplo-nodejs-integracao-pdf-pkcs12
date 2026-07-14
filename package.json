@@ -1,0 +1,17 @@
+{
+  "name": "exemplo-nodejs-integracao-pdf-pkcs12",
+  "version": "1.0.0",
+  "description": "SolidSign PAdES (PDF) signing example — PKCS#12 pre-imported certificate (Fastify / Node.js 18+)",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node --watch src/index.js"
+  },
+  "engines": { "node": ">=18.0.0" },
+  "dependencies": {
+    "fastify": "^4.27.0",
+    "@fastify/multipart": "^8.1.0",
+    "jszip": "^3.10.1",
+    "dotenv": "^16.4.0"
+  }
+}
